@@ -1,21 +1,24 @@
 
-
-h2  {
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 2px grey;
-    margin-top: -20px;
-
-}
 body{
     background: url("turtle.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    opacity: 1;
 }
-
-p  {
+h2  {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+}
+div {
+    width: 30%;
+    height: auto;
+    border: 2px black;
+    margin-top: 50px;
+}
+p   {
     color: white;
     font-size: 8px;
 }
