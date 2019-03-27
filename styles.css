@@ -1,10 +1,15 @@
-
+@keyframes bganimate {
+  from {opacity:0.2;}
+  to {opacity:1.0;}
+}
 body{
     background: url("turtle.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
 }
 h2  {
     color: white;
@@ -12,14 +17,48 @@ h2  {
     text-shadow: 2px 2px 2px grey;
     margin-top: 10px;
 }
+h3  {
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px 1px red;
+    padding: 5px;
+}
 div {
-    width: 30%;
+    width: 35%;
     height: auto;
     border: 2px black;
-    margin-top: 50px;
+    margin-top: auto;
     background: transparent;
 }
 p   {
     color: white;
     font-size: 8px;
+}
+div.listdiv {
+    position:absolute;
+    top: 50px;
+    right: 5px;
+    width: auto;
+    height: auto;
+    background-color:transparent;
+    font-size: 8px;
+    color: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 4px;
+    margin: 2px;
+}
+a.links:link {
+    color: white;
+    text-decoration: none;
+}
+a.links:visited {
+    color: white;
+    text-decoration: none
+}
+a.links:hover {
+    color: yellow;
+}
+a.links:active {
+    color: orange;
 }
