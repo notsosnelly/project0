@@ -14,7 +14,7 @@ body.index {
     animation-name: bganimate;
     animation-duration: 7s;
 }
-.flatback {
+body.flatback {
     background: url("flatback.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,7 +23,7 @@ body.index {
     animation-name: bganimate;
     animation-duration: 7s;
 }
-.green {
+body.green {
     background: url("green.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -32,7 +32,7 @@ body.index {
     animation-name: bganimate;
     animation-duration: 7s;
 }
-.hawksbill {
+body.hawksbill {
     background: url("hawksbill.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,7 +50,7 @@ body.leatherback {
     animation-name: bganimate;
     animation-duration: 7s;
 }
-.loggerhead {
+body.loggerhead {
     background: url("loggerhead.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -59,7 +59,7 @@ body.leatherback {
     animation-name: bganimate;
     animation-duration: 7s;
 }
-.olive {
+body.olive {
     background: url("olive.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -103,7 +103,46 @@ div {
     margin-top: auto;
     background-color; white;
 }
-p   {
+#leatherback {
+    position: absolute;
+    width: auto;
+    left:67%; bottom: 1%;
+    background-color: #d9d9d9;
+    color: black;
+    padding: 10px 20px 5px 20px;
+    border-radius: 5px;
+}
+#flatback{
+    position: absolute;
+    width: auto;
+    left: 67% bottom: 1%;
+    background-color: #d9d9d9;
+    opacity: 0.6;
+    color: black;
+    padding: 10px 20px 5px 20px;
+    border-radius: 5px;
+}
+#green {
+    position: absolute;
+    width: auto;
+    Top: 75%;
+    background-color: #eeeedd;
+    opacity: 0.9;
+    color: black;
+    padding: 10px 20px 20px 20px;
+    border-radius: 5px;
+}
+#hawksbill {
+    position: absolute;
+    width: auto;
+    Top: 75%;
+    background-color: #eeeedd;
+    opacity: 0.9;
+    color: black;
+    padding: 10px 20px 20px 20px;
+    border-radius: 5px;
+}
+.p_index {
     background-color: #1f1fab;
     color: white;
     font-size: 16px;
@@ -136,4 +175,10 @@ a.links:hover {
 }
 a.links:active {
     color: orange;
+}
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
 }
