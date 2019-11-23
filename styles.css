@@ -68,8 +68,12 @@ body.olive {
     animation-name: bganimate;
     animation-duration: 7s;
 }
-img {
-    opacity: 1.0;
+#img_hawksbill {
+    float: left;
+    height: 220px;
+    width: 220px;
+    padding: 5px 10px 10px 0px;
+    border-radius; 5px;
 }
 h1, h5 {
     color: white;
