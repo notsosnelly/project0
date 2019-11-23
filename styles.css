@@ -1,8 +1,11 @@
+ "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+
 @keyframes bganimate {
   from {opacity:0.2;}
   to {opacity:1.0;}
 }
-body{
+body.index {
     background: url("turtle.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,41 +14,113 @@ body{
     animation-name: bganimate;
     animation-duration: 7s;
 }
-h2  {
+.flatback {
+    background: url("flatback.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
+}
+.green {
+    background: url("green.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
+}
+.hawksbill {
+    background: url("hawksbill.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
+}
+body.leatherback {
+    background: url("leatherback.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
+}
+.loggerhead {
+    background: url("loggerhead.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
+}
+.olive {
+    background: url("olive.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation-name: bganimate;
+    animation-duration: 7s;
+}
+img {
+    opacity: 1.0;
+}
+h1, h5 {
     color: white;
     text-align: center;
     text-shadow: 2px 2px 2px grey;
-    margin-top: 10px;
+    margin-top: 40px;
+}
+h2 {
+    color: white;
+    text-align: left;
+    text-emphasis-style; open-sesame;
+    text-shadow: 3px 3px 1px grey;
+    padding-top: 20px;
 }
 h3  {
     color: white;
     text-align: left;
-    text-shadow: 1px 1px 1px red;
+    text-shadow: 1px 1px 1px grey;
     padding: 5px;
 }
+h6  {
+    color: white;
+    text-align: left;
+    margin: 2px;
+
+}
 div {
-    width: 35%;
+    width: 33%;
     height: auto;
     border: 2px black;
     margin-top: auto;
-    background: transparent;
+    background-color; white;
 }
 p   {
+    background-color: #1f1fab;
     color: white;
-    font-size: 8px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
 }
-div.listdiv {
+.listdiv {
     position:absolute;
-    top: 50px;
-    right: 5px;
+    top: 100px;
+    right: 20px;
     width: auto;
     height: auto;
     background-color:transparent;
-    font-size: 8px;
+    font-size: 20px;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: left;
-    padding: 4px;
     margin: 2px;
 }
 a.links:link {
