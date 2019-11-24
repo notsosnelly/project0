@@ -149,7 +149,8 @@ div {
 #loggerhead {
     position: absolute;
     width: auto;
-    Top: 75%;
+    top: 80%; left: 50%;
+    float: right;
     background-color: #eeeedd;
     opacity: 0.9;
     color: black;
@@ -195,4 +196,51 @@ a.links:active {
 }
 .red {
     color: red;
+}
+/*
+.button_home {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #1f1fab;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;*/
+}
+
+.button_home:hover {
+    background-color: #57579e
+}
+
+.button_home:active {
+    background-color: #0f0f55;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #111;
 }
